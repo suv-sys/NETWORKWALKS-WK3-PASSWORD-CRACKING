@@ -26,15 +26,15 @@ Crack the password of the provided `My Locked PDF1.pdf`,`My Locked PDF2.pdf`,`My
 
 Downloaded and installed John the Ripper on the Windows system.
 
-![John the Ripper Installation](./screenshots/jtr-installation.png)
+![John the Ripper Installation](./screenshots/jhonnyins.png)
 
 ### Step 2 – Install and Configure Johnny
 
 Installed Johnny and configured it by selecting the `john.exe` file from the JTR `run` folder.
 
-![Johnny Installation](screenshots/jhonnyins.png)
+![Johnny Installation](./screenshots/jins2.png)
 
-![Johnny Configuration](./screenshots/johnny-configuration.png)
+![Johnny Configuration](./screenshots/jins3.png)
 
 ### Step 3 – Extract the PDF Hash
 
@@ -42,25 +42,29 @@ Uploaded the authorized password-protected PDF to the PDF hash extraction tool a
 
 The hash was saved in a text file named `hash1.txt`.
 
-![PDF Hash Extraction](./screenshots/pdf-hash.png)
+![PDF Hash Extraction](./screenshots/hash1.png)
 
 ### Step 4 – Load the Hash into Johnny
 
 Opened Johnny and loaded the `hash1.txt` file using **Open Password File**.
 
-![Loading Hash File](./screenshots/hash-file.png)
+![Loading Hash File](./screenshots/hashnpad.png)
 
 ### Step 5 – Start Password Recovery
 
 Started a new attack in Johnny using the loaded hash.
 
-![Password Recovery](./screenshots/password-recovery.png)
+![Password Recovery](./screenshots/psjn.png)
+![Password Recovery](./screenshots/psjn2.png)
+![Password Recovery](./screenshots/psjn3.png)
 
 ### Step 6 – Verify the Password
 
 Used the recovered password to open the protected PDF and verify the result.
 
-![Unlocked PDF](./screenshots/unlocked-pdf.png)
+![Unlocked PDF](./screenshots/pcr1.png)
+![Unlocked PDF](./screenshots/pcr2.png)
+![Unlocked PDF](./screenshots/pcr3.png)
 
 ### Challenge & Troubleshooting
 
