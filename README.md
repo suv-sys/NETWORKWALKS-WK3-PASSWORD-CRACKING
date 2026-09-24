@@ -32,7 +32,7 @@ Downloaded and installed John the Ripper on the Windows system.
 
 Installed Johnny and configured it by selecting the `john.exe` file from the JTR `run` folder.
 
-![Johnny Installation](./screenshots/johnny-installation.png)
+![Johnny Installation](screenshots/jhonnyins.png)
 
 ![Johnny Configuration](./screenshots/johnny-configuration.png)
 
